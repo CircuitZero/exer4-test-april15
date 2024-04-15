@@ -38,7 +38,7 @@ jobs:
     needs: build
     environment:
       name: production
-      url: http:/inconclusive-channel.surge.sh
+      url: http://inconclusive-channel.surge.sh
     steps:
       - name: Download the Build Artifact
         uses: actions/download-artifact@v4.1.4
